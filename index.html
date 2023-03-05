@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edfbca828c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="k (1).png">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="k (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Yasir</span><br>Khan From India</h1>
+            </div>
+        </div>
+    </div>
+<!--------about-------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="yasir3 (1).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a web developer, I am passionate about creating functional, user-friendly, 
+                        and visually appealing websites that meet the needs of businesses and organizations. 
+                        I specialize in front-end development using HTML, CSS, and JavaScript.<br><br>If you're looking for a web developer who can bring your vision to life and deliver exceptional results, I would love to hear from you
+                        . Please feel free to contact me to discuss your project or to learn more about my experience and qualifications.</p>
+                            
+                            <div class="content">
+                             <button onclick="opentab('skills')">Skills</button>
+                              <button onclick="opentab('experience')">Experience</button>
+                              <button onclick="opentab('education')">Education</button><br><br>
+                                <div id="skills" class="tab active">
+                                <h3>Skills</h3><br>
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web Interfaces</li><br>
+                                    <li><span>Web Development</span><br>Web Development</li><br>
+                                    <li><span>Video Editing</span><br>Editing videos for Social Media Posts</li>
+                                </ul>
+                              </div>
+                        
+                              <div id="experience" class="tab">
+                                <h3>Experience</h3><br>
+                                <ul>
+                                    <li><span>2023 - Current</span><br>Developed Fully Responsive Website</li><br>
+                                    <li><span>2022-2023</span><br>Developed a Modern Interface for clients</li><br>
+                                    <li><span>2015-2018</span><br>Edited More Than 350 videos </li>
+                                </ul>
+                              </div>
+                        
+                              <div id="education" class="tab">
+                                <h3>Education</h3><br>
+                                <ul>
+                                    <li><span>2022</span><br>Web Development Study At AIKTC</li><br>
+                                    <li><span>2022</span><br>Finshed 12th At D.G. Tatkare Junior College</li><br>
+                                    <li><span>2020</span><br>Finished 10th At New English School, Kalamboli</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------services----------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Our web design service creates beautiful, responsive websites that are tailored to your unique needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Our UI/UX design service creates visually stunning and intuitive digital <br>experiences that engage and delight users.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Our video editing service transforms your raw footage into a polished final product.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------portfolio------>
+ 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This Website Allows you to buy Things Online from Anywhere In India</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.png">
+                <div class="layer">
+                    <h3>Football Website</h3>
+                    <p>This Website Allows you to See Your Favorite Club Info from Anywhere In World</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg">
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p>Some PUBG edited Videos</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+<!-------------contact---------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>khanyasirraza1@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7039824207</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100011226636520"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/khanyasir7260?t=rX67B3z_mnt5QDZGYRaFAw&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/yxsir.18/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/khan-yasir-855719248"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy;Copyright - Yasir Khan </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+  function opentab(tabName) {
+      var i;
+      var x = document.getElementsByClassName("tab");
+      for (i = 0; i < x.length; i++) {
+        x[i].classList.remove("active");
+      }
+      document.getElementById(tabName).classList.add("active");
+    }
+ </script>
+
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw9_Q-wv3i1XpO26FK5rg46IxynZMSLaHNJUs-XbQs0HcTdpOB1b_yLy-4cAK_I-KPV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent successfully"
+             setTimeout(function(){
+                msg.innerHTML = ""
+             },5000)
+             form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
